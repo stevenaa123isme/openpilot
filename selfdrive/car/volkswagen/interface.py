@@ -182,6 +182,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate == CAR.AUDI_Q3_MK2:
       ret.mass = 1623
       ret.wheelbase = 2.68
+      ret.minSteerSpeed = 5 * CV.KPH_TO_MS
 
     elif candidate == CAR.SEAT_ATECA_MK1:
       ret.mass = 1900
